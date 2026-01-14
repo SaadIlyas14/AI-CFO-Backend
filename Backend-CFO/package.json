@@ -1,0 +1,26 @@
+{
+  "name": "ai-cfo-backend",
+  "version": "1.0.0",
+  "description": "AI CFO Backend - Express.js + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "axios": "^1.6.0",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
