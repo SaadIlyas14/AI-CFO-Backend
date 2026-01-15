@@ -35,7 +35,7 @@ exports.handleCallback = async (req, res) => {
     const { code, realmId, state, error } = req.query;
     
     // Fix: Redirect to correct frontend URL
-    const frontend_url = 'http://localhost:3000/integrations/quickbooks';
+    const frontend_url = `${process.env.FRONTEND_URL}/integrations/quickbooks`;
     
     if (error) {
         return res.redirect(`${frontend_url}?qb_error=${error}`);
